@@ -10,9 +10,10 @@ client.on("message", function(message) {
 	if(command === "doubt"){
 	const timeTaken = Date.now() - message.createdTimestamp;
 	message.reply('Fill this for (url), you will added to doubt solving channel when our experts will notice your question');
-	message.reply()
+	message.reply();
 
- 
+}
 
+});
 client.login(process.env.token);
 
